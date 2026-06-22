@@ -1,14 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baby Style</title>
+<title>Parvina Web Studio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#111,#222,#000);
+color:white;
+text-align:center;
+}
+
+.hero{
+padding:60px 20px;
+}
+
+.logo{
+font-size:42px;
+font-weight:bold;
+color:gold;
+text-shadow:0 0 15px gold;
+margin-bottom:20px;
+}
+
+.subtitle{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+margin:20px;
+padding:25px;
+border-radius:25px;
+box-shadow:0 0 25px rgba(255,215,0,0.4);
+}
+
+.btn{
+display:block;
+width:90%;
+max-width:320px;
+margin:12px auto;
+padding:15px;
+border-radius:15px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+color:white;
+background:linear-gradient(45deg,gold,#ff9900);
+}
+
+.map{
+margin-top:20px;
+border-radius:20px;
+overflow:hidden;
+}
+
+.footer{
+padding:30px;
+color:#ccc;
+}
+</style>
 </head>
-<body style="font-family:Arial;text-align:center;padding:40px;">
-<h1>Baby Style</h1>
-<p>Магазин детской одежды</p>
-<p>Телефон: +992 011 900 303</p>
-<button>Связаться</button>
+
+<body>
+
+<div class="hero">
+
+<div class="logo">
+PARVINA WEB STUDIO
+</div>
+
+<p class="subtitle">
+Премиальная детская одежда
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Обо мне</h2>
+
+<br>
+
+<p>
+Привет! Меня зовут Парвина.
+Я продаю качественную и красивую одежду для детей.
+Буду рада вашему заказу.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Контакты</h2>
+
+<br>
+
+<p>Телефон: 918900303</p>
+
+<a class="btn" href="tel:918900303">
+📞 Позвонить
+</a>
+
+<a class="btn" href="sms:918900303">
+💬 Отправить SMS
+</a>
+
+<a class="btn" href="https://wa.me/992918900303">
+🟢 WhatsApp
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>Маршрут по Душанбе</h2>
+
+<br>
+
+<a class="btn"
+href="https://maps.google.com/?q=Dushanbe">
+📍 Построить маршрут
+</a>
+
+<div class="map">
+
+<iframe
+src="https://maps.google.com/maps?q=Dushanbe&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="300"
+style="border:0;">
+</iframe>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 PARVINA WEB STUDIO
+</div>
+
 </body>
 </html>
