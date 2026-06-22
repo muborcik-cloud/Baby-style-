@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Parvina Web Studio</title>
+<title>PARVINA WEB STUDIO</title>
 
 <style>
 *{
@@ -14,7 +14,7 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:linear-gradient(135deg,#111,#222,#000);
+background:linear-gradient(135deg,#111,#1a1a1a,#000);
 color:white;
 text-align:center;
 }
@@ -27,13 +27,14 @@ padding:60px 20px;
 font-size:42px;
 font-weight:bold;
 color:gold;
-text-shadow:0 0 15px gold;
-margin-bottom:20px;
+text-shadow:0 0 20px gold;
+margin-bottom:15px;
 }
 
 .subtitle{
 font-size:20px;
-margin-bottom:30px;
+color:#ddd;
+margin-bottom:20px;
 }
 
 .card{
@@ -47,27 +48,28 @@ box-shadow:0 0 25px rgba(255,215,0,0.4);
 
 .btn{
 display:block;
-width:90%;
-max-width:320px;
-margin:12px auto;
-padding:15px;
-border-radius:15px;
 text-decoration:none;
-font-size:18px;
+background:gold;
+color:black;
 font-weight:bold;
-color:white;
-background:linear-gradient(45deg,gold,#ff9900);
+padding:15px;
+margin:12px auto;
+max-width:300px;
+border-radius:15px;
 }
 
-.map{
-margin-top:20px;
-border-radius:20px;
-overflow:hidden;
+.btn:hover{
+transform:scale(1.05);
+}
+
+h2{
+color:gold;
+margin-bottom:15px;
 }
 
 .footer{
 padding:30px;
-color:#ccc;
+color:#aaa;
 }
 </style>
 </head>
@@ -75,82 +77,65 @@ color:#ccc;
 <body>
 
 <div class="hero">
+<div class="logo">PARVINA WEB STUDIO</div>
 
-<div class="logo">
-PARVINA WEB STUDIO
+<div class="subtitle">
+Магазин качественной детской одежды
 </div>
-
-<p class="subtitle">
-Премиальная детская одежда
-</p>
-
 </div>
 
 <div class="card">
-
 <h2>Обо мне</h2>
-
-<br>
 
 <p>
 Привет! Меня зовут Парвина.
-Я продаю качественную и красивую одежду для детей.
+Я продаю красивую и качественную одежду для детей.
 Буду рада вашему заказу.
 </p>
-
 </div>
 
 <div class="card">
-
 <h2>Контакты</h2>
 
-<br>
-
-<p>Телефон: 918900303</p>
-
-<a class="btn" href="tel:918900303">
+<a class="btn" href="tel:+992918900303">
 📞 Позвонить
 </a>
 
-<a class="btn" href="sms:918900303">
-💬 Отправить SMS
+<a class="btn" href="sms:+992918900303">
+💬 SMS
 </a>
 
-<a class="btn" href="https://wa.me/992918900303">
+<a class="btn"
+href="https://wa.me/992918900303">
 🟢 WhatsApp
 </a>
 
+<a class="btn"
+href="https://instagram.com/parv.ina1549"
+target="_blank">
+📷 Instagram Парвины
+</a>
 </div>
 
 <div class="card">
-
 <h2>Маршрут по Душанбе</h2>
-
-<br>
 
 <a class="btn"
 href="https://maps.google.com/?q=Dushanbe">
 📍 Построить маршрут
 </a>
 
-<div class="map">
-
 <iframe
 src="https://maps.google.com/maps?q=Dushanbe&t=&z=13&ie=UTF8&iwloc=&output=embed"
 width="100%"
 height="300"
-style="border:0;">
+style="border:0;border-radius:15px;">
 </iframe>
-
-</div>
-
 </div>
 
 <div class="footer">
 © 2026 PARVINA WEB STUDIO
 </div>
-<a class="btn" href="https://instagram.com/parvina" target="_blank">
-📸 Instagram Парвины
-</a>
+
 </body>
 </html>
